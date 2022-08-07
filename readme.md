@@ -1,20 +1,28 @@
-# Projeto ABC 
-[Nome do projeto ou do grupo - este será seu identificador único até o final da disciplina]
+# Projeto Feira Online 
+
 
 ## Integrantes do grupo 
 [Liste o nome completo de todos os integrantes do grupo com seus respectivos e-mails]
- * Fulano da Silva Junior - fulano@abc.com
- * Beltrano de Amorim Cardoso - beltrano@abc.com
- * Maria das Graças Nascimento - maria@abc.com
- * João da Fonseca - joao@abc.com
+ * Gabriel Cavalcanti - gabriel.cavalcanti.28@gmail.com
+ * Edivaldo Leitão - beltrano@abc.com
+ * Pedro - maria@abc.com
+ * Eduardo - joao@abc.com
 
 ## Descrição geral do projeto 
-Nesta descrição, apresente um texto resumido com a(s) principal(is) funcionalidade(s) do sistema. 
-É muito importante que você consiga responder em uma única frase: qual a principal funcionalidade do seu sistema? 
-A partir disso, você deve detalhar as funcionalidades do sistema tentando responder às perguntas:
+O sistema tem como objetivo comparar produtos em sites de compras de mês (feiras), a fim de dar ao usuario as informações sobre qual a forma mais barata de comprar os itens desejados pelo mesmo.
+
  1. Quem vai usar o programa?
+    O programa é pensado para pessoas que querem fazer suas compras de mercado de forma online e eficiente
  2. Que serviços são “necessários” (leia-se: importantes para os clientes e usuários)?
+    -varrer sites de compra de mercado online, de forma a ter uma lista de produtos disponiveis e seus respectivos preços
+    -ter um sistema de busca para o usuario escolher quais items ele quer comprar
+    -ter um sistema que crie carrinhos nos mercados virtuais automaticamente (ou pelo menos devolva uma lista) afim de simular o valor do frete e incluir no
+     valor total de compras 
  3. Quais serviços cada usuário pode executar?
+    -buscar no site pelos itens de mercado que deseja comprar
+    -fazer uma simulação para descobrir qual a melhor opção de compra
+    -checar listas de compra anteriores feitas no app
+    
 
 ## Requisitos do projeto
 Liste deve estar numerada e com identificadores únicos contendo os seus requisitos de projeto. Essas requisitos podem ser somente os títulos da histórias de usuário que devem estar definidas em outro documento
