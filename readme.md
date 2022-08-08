@@ -25,12 +25,10 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
     
 
 ## Requisitos do projeto
-Liste deve estar numerada e com identificadores únicos contendo os seus requisitos de projeto. Essas requisitos podem ser somente os títulos da histórias de usuário que devem estar definidas em outro documento
-A descrição de cada requisito deve ser breve, porém informativa. 
-Exemplo de requisitos para um sistema de automação comercial (A INFORMAÇÃO ABAIXO É SOMENTE UM EXEMPLO E DEVE SER ALTERADA):
- * **REQ1** - O sistema deve controlar o acesso através de login e senha. Os usuários do sistema serão do tipo administrador e funcionário
- * **REQ2** - O sistema deve permitir a venda de produtos previamente cadastrados e salvá-los como em um histórico de vendas por cliente. Cada venda de produto deve ser associada a um cliente único.
- * **REQ3** - O sistema deve permitir o gerenciamento (Create, Recover, Update e Delete - CRUD) de clientes e produtos e produtos e essa ação pode ser feita por funcionários comuns.
- * **REQ4** - O sistema deve permitir o gerenciamento (CRUD) de funcionários da empresa e essa ação somente poderá ser executada por usuários administradores. Usuários administradores também podem executar todas as funcionalidades que um funcionário comum pode executar.
+ * **REQ1** - O sistema deve disponibilizar uma lista de itens de mercado para o usuario, baseando-se em produtos reais de lojas online
+ * **REQ2** - O usuario deve ser capaz de escolher diversis produtos, formando um carrinho de compras
+ * **REQ3** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
+ * **REQ4** - O sistema deve fazer uma busca periodica em sites de mercado para poder manter preços atualizados para os clientes
 
-ATENÇÃO - A sua lista de requisitos não deve ultrapassar mais de 30 itens e cada título do requisitos deve coincidir com o título da história de usuário
+
+ATENÇÃO
