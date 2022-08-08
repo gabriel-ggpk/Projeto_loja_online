@@ -29,6 +29,3 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
  * **REQ2** - O usuario deve ser capaz de escolher diversis produtos, formando um carrinho de compras
  * **REQ3** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
  * **REQ4** - O sistema deve fazer uma busca periodica em sites de mercado para poder manter preços atualizados para os clientes
-
-
-ATENÇÃO
