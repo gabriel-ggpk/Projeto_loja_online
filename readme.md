@@ -26,6 +26,12 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
 
 ## Requisitos do projeto
  * **REQ1** - O sistema deve disponibilizar uma lista de itens de mercado para o usuario, baseando-se em produtos reais de lojas online
- * **REQ2** - O usuario deve ser capaz de escolher diversis produtos, formando um carrinho de compras
+ * **REQ2** - O usuario deve ser capaz de escolher diversos produtos, formando um carrinho de compras
  * **REQ3** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
- * **REQ4** - O sistema deve fazer uma busca periodica em sites de mercado para poder manter preços atualizados para os clientes
+ * **REQ4** - O sistema deve fazer a busca pelos preços dos produtos no momento atual, em todos os sites habilitados na aplicação.
+ * **REQ5** - O usuário deve poder selecionar a partir de uma lista os sites no qual serão feitas as buscas.
+ * **REQ6** - O sistema deve guardar uma lista de produtos do usuário baseado em seu histórico.
+ 
+## Link para Histórias de usuário
+ 
+ *https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
