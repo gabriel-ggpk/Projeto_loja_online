@@ -34,4 +34,4 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
  
 ## Link para Histórias de usuário
  
- *https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
+https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
