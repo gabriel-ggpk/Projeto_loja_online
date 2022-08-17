@@ -32,7 +32,7 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
  * **REQ5** - O usuário deve poder selecionar a partir de uma lista os sites no qual serão feitas as buscas.
  * **REQ6** - O sistema deve guardar uma lista de produtos do usuário baseado em seu histórico.
  ## Requisitos não funcionais
-  * **REQ1** -
+  * **REQ1** - O sistema deve retornar resultados em até 2 segundos.
 ## Link para Histórias de usuário
  
 https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
