@@ -9,7 +9,7 @@
  * Eduardo - joao@abc.com
 
 ## Descrição geral do projeto 
-O sistema tem como objetivo comparar produtos em sites de compras de mês (feiras), a fim de dar ao usuario as informações sobre qual a forma mais barata de comprar os itens desejados pelo mesmo.
+O sistema tem como objetivo comparar produtos em sites de compras de mantimentos, a fim de dar ao usuario as informações sobre qual a forma mais barata de comprar os itens desejados pelo mesmo.
 
  1. Quem vai usar o programa?
     O programa é pensado para pessoas que querem fazer suas compras de mercado de forma online e eficiente
@@ -25,7 +25,16 @@ O sistema tem como objetivo comparar produtos em sites de compras de mês (feira
     
 
 ## Requisitos do projeto
- * **REQ1** - O sistema deve disponibilizar uma lista de itens de mercado para o usuario, baseando-se em produtos reais de lojas online
- * **REQ2** - O usuario deve ser capaz de escolher diversis produtos, formando um carrinho de compras
- * **REQ3** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
- * **REQ4** - O sistema deve fazer uma busca periodica em sites de mercado para poder manter preços atualizados para os clientes
+ * **REQ1** - O usuario deve ser capaz de escolher diversos produtos, formando um carrinho de compras
+ * **REQ2** - O usuário deve poder selecionar a partir de uma lista os sites no qual serão feitas as buscas.
+ * **REQ3** - O usuario deve requisitar ao sistema os preços dos produtos nos sites de mantimentos suportados.
+ * **REQ4** - O sistema deve ser capaz identificar se existem volumes diferentes para o mesmo produto e escolher o mais adequado baseado nos termos da pesquisa.
+ * **REQ5** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
+ * **REQ6** - O sistema deve guardar uma lista de produtos do usuário baseado em seu histórico.
+ * 
+ ## Requisitos não funcionais
+  * **REQ1** - O sistema deve retornar resultado das buscas de produtos em até 2 segundos.
+  * **REQ2** - O sistema deve sinalizar ao usuario que sua busca está sendo feita
+## Link para Histórias de usuário
+ 
+https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
