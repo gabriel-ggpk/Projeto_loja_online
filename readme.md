@@ -5,8 +5,6 @@
 [Liste o nome completo de todos os integrantes do grupo com seus respectivos e-mails]
  * Gabriel Cavalcanti - gabriel.cavalcanti.28@gmail.com
  * Edivaldo Leitão - edivaldoleitao@outlook.com
- * Pedro - maria@abc.com
- * Eduardo - joao@abc.com
  * Lucas Arruda - lucasarruda280502@gmail.com
  * Fábio Henrique Hatem de Farias - fabiohatem@hotmail.com
 
