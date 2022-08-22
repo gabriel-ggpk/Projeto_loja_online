@@ -31,7 +31,7 @@ O sistema tem como objetivo comparar produtos em sites de compras de mantimentos
  * **REQ4** - O sistema deve ser capaz identificar se existem volumes diferentes para o mesmo produto e escolher o mais adequado baseado nos termos da pesquisa.
  * **REQ5** - O sistema deve simular e comparar carrinhos de compras em sites de mercado online especificos, afim de apresentar o melhor custo beneficio geral
  * **REQ6** - O sistema deve guardar uma lista de produtos do usuário baseado em seu histórico.
- * 
+ * **REQ7** - O sistema deve permitir a um administrador decidir quais sites de compra de mantimentos estarão disponiveis para uso do usuario.
  ## Requisitos não funcionais
   * **REQ1** - O sistema deve retornar resultado das buscas de produtos em até 2 segundos.
   * **REQ2** - O sistema deve sinalizar ao usuario que sua busca está sendo feita
