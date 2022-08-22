@@ -38,3 +38,5 @@ O sistema tem como objetivo comparar produtos em sites de compras de mantimentos
 ## Link para Histórias de usuário
  
 https://docs.google.com/document/d/19Nki5-7WqV3yIwh2_cKNPR5fpF4CbfJGWELWatFfwaU/edit?usp=sharing
+https://b24-3g96r0.bitrix24.com.br/workgroups/group/1/tasks/
+https://b24-3g96r0.bitrix24.com.br/workgroups/group/1/tasks/
