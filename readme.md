@@ -7,6 +7,7 @@
  * Edivaldo Leitão - edivaldoleitao@outlook.com
  * Pedro - maria@abc.com
  * Eduardo - joao@abc.com
+ * Lucas Arruda - lucasarruda280502@gmail.com
 
 ## Descrição geral do projeto 
 O sistema tem como objetivo comparar produtos em sites de compras de mantimentos, a fim de dar ao usuario as informações sobre qual a forma mais barata de comprar os itens desejados pelo mesmo.
