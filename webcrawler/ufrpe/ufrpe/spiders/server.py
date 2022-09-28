@@ -132,8 +132,10 @@ def carregar_json():
     data = []
     with open("Amazon.json", 'r') as j:
         data.append(json.loads(j.read())) 
+    j.close()
     with open("Bompreço.json", 'r') as j:
         data.append(json.loads(j.read())) 
+    j.close()
     with open("Sams.json", 'r') as j:
         data.append(json.loads(j.read())) 
     j.close()
