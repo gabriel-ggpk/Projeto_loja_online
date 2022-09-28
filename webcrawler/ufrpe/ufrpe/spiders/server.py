@@ -47,20 +47,27 @@ def search():
     consulta_BOMPRECO = BOMPRECO + montar_url(termo_pesquisa, 'BOMPRECO') # ponto que monta a url com a consulta
     consulta_AMAZON = AMAZON + montar_url(termo_pesquisa, 'AMAZON')
     consulta_SAMS = SAMS + montar_url(termo_pesquisa, 'SAMS')
-    consultas = [#{'name':'Bompreço',
-                  #  'url':consulta_BOMPRECO},
+    consultas = [   {'name':'Bompreço',
+                    'url':consulta_BOMPRECO},
                     {'name':'Amazon',
                     'url':consulta_AMAZON},
-                   # {'name':'Sams',
-                    #'url':consulta_SAMS}
+                    {'name':'Sams',
+                    'url':consulta_SAMS}
                     ]
     chamar_crawler(consultas)
     termo_pesquisa = ''
     json = carregar_json()
-    result = {
+    result = [{
+        'name': 'Amazon',
+        'products': json[0]
+    },{
         'name': 'Bompreço',
-        'products': json
+        'products': json[1]
+    },{
+        'name': 'Sams',
+        'products': json[2]
     }
+    ]
     return result
 
 
@@ -122,8 +129,13 @@ def chamar_crawler(consultas):
         
     
 def carregar_json():
-    with open("crawler_teste.json", 'r') as j:
-        data = json.loads(j.read())
+    data = []
+    with open("Amazon.json", 'r') as j:
+        data.append(json.loads(j.read())) 
+    with open("Bompreço.json", 'r') as j:
+        data.append(json.loads(j.read())) 
+    with open("Sams.json", 'r') as j:
+        data.append(json.loads(j.read())) 
     j.close()
     return data
 
