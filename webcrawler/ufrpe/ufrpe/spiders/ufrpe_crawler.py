@@ -32,11 +32,21 @@ class UfrpeCrawlerSpider(scrapy.Spider):
             for r in response.css('a.s-no-outline'):
                 url = r.css('::attr(href)').get()
                 txt = r.css('img::attr(alt)').get()
-                preco = r.css('span::text').get()
+                preco = r.css('.a-price::text').get()
                 yield {
                     'URL' :  url,
                     'NOME_PRODUTO' : txt,
                     'PRECO': preco,
                 }
-            
+        elif 'samsclub' in START_URL[0]:
+            for r in response.css('a.vtex-product-summary-2-x-clearLink'):
+                url = r.css('::attr(href)').get()
+                txt = r.css('::text').get()
+                preco = r.css('span.vtex-productShowCasePrice ::text').get()
+                
+                yield {
+                    'URL' :  url,
+                    'NOME_PRODUTO' : txt, 
+                    'PRECO': preco,          
+                }            
       
