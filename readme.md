@@ -48,4 +48,5 @@ https://online.visual-paradigm.com/share.jsp?id=323132343635322d31
 [Plano de Testes- Eng SW.docx](https://github.com/gabriel-ggpk/Projeto_loja_online/files/9669096/Plano.de.Testes-.Eng.SW.docx)
 
 #Documento de Plataformas
-(https://github.com/gabriel-ggpk/Projeto_loja_online/files/9669178/Descricao.de.Plataformas.-.Eng.SW.docx)
+[Descrição de Plataformas - Eng SW.docx](https://github.com/gabriel-ggpk/Projeto_loja_online/files/9669210/Descricao.de.Plataformas.-.Eng.SW.docx)
+
