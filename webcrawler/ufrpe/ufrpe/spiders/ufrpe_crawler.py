@@ -23,10 +23,11 @@ class UfrpeCrawlerSpider(scrapy.Spider):
                 preco = r.css('span.vtex-productShowCasePrice ::text').get()
                 
                 yield {
-                    'URL' : START_URL[0] + url,
-                    'NOME_PRODUTO' : txt,
-                    'PRECO': preco,
+                    'url' : START_URL[0] + url,
+                    'name' : txt,
+                    'price': preco,
                 }
+
         else:
             for r in response.css('a'):
                 url = r.css('::attr(href)').get()
