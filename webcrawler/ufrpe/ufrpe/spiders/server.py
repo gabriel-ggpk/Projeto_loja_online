@@ -118,7 +118,7 @@ def montar_url(termo_pesquisa, mercado):
     elif mercado == 'BOMPRECO':
         url = urllib.parse.quote(termo_pesquisa, safe='')
     elif mercado == 'SAMS':
-        url = urllib.parse.quote(termo_pesquisa, safe='')
+        url = urllib.parse.quote(termo_pesquisa + "?_q=" + termo_pesquisa+"&map=ft", safe='')
     return url
 
 
